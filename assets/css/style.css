@@ -17,6 +17,10 @@
     background-color: #f4f4f4;
 }
 
+.bg-color-work-history {
+    background-color:  #f4f4f4;
+}
+
 .ui-menu-color-home {
     background-color: #00A6CE;
 }
@@ -63,6 +67,7 @@ h1, h2, h3, h4 {
     float: none;
 }
 
+.history-heading,
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -283,4 +288,49 @@ footer {
     margin: 40px 20px;
 }
 
-/* --------------------------------------------------------Colours */
+/* --------------------------------------------------------Work History */
+
+.history-heading {
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #46464c;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top:3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: "";
+    background: #46464c;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
