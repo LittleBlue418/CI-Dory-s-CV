@@ -86,19 +86,15 @@ header {
 }
 
 .heading {
-    margin-left: 50px;
+    margin-left: 10%;
 }
 
-.logo {
-    background: url("../images/profile_picture.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+.profile-pic{
+    background-image: url(../images/profile_picture.jpg);
     background-size: cover;
-    min-height: 360px;
-    min-width: 360px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
 }
 
 .name {
