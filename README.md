@@ -2,7 +2,7 @@
 This is a follow along exercise with the Code Institute, creating an example CV for Dory the fish. 
 
 ## Website Link
-https://littleblue418.github.io/Code-Institute-Practice-CV/.
+https://littleblue418.github.io/CI-Dory-s-CV/
 
 ## Built with
 * Bootstrap 
