@@ -221,45 +221,13 @@
                 </ul>
             </div>
         </div>
-
     </footer>
-    <script>
-        function initMap() {
-            var map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 3,
-                center: {
-                    lat: -26.396688,
-                    lng: 174.569519
-                }
-            });
 
-            var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-            var locations = [
-
-                { lat: -17.864677, lng: 172.650339 },
-                { lat: -33.854341, lng: 151.218449 },
-                { lat: -34.569345, lng: 174.823199 },
-                { lat: -12.368470, lng: 162.361579 }
-            ];
-
-            var markers = locations.map(function (location, i) {
-                return new google.maps.Marker({
-                    position: location,
-                    label: labels[i % labels.length]
-                });
-            });
-
-            var markerCluster = new MarkerClusterer(map, markers,
-                { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' }
-            );
-        }
-
-    </script>
     <script
         src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDN5ITVUS1s5DMC3sdy8RM3WwVHStEFXF4&callback=initMap"></script>
+    <script src="assets/JS/maps.js"></script>
 </body>
 
 </html>
