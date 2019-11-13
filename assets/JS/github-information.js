@@ -38,11 +38,11 @@ function fetchGitHubInformation(event) {
       function(errorResponse) {
           if (errorResponse.status === 404) {
               $("#gh-user-data").html(
-                  `<h2>No info found for user ${username}</h2>`);
+                  `<h3>No info found for user ${username}</h3>`);
           } else {
               console.log(errorResponse);
               $("#gh-user-data").html(
-                  `<h2>Error: ${errorResponse.responseJSON.message}</h2>`);
+                  `<h3>Error: ${errorResponse.responseJSON.message}</h3>`);
           }
       });
 }

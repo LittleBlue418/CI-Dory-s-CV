@@ -55,6 +55,14 @@ img {
 
 /* page structure */
 
+.container-fluid {
+ padding-right: 0;
+ padding-left: 0;
+}
+
+.contact-heading {
+    padding-top: 12px;
+}
 #search-area {
   display: block;
   max-width: 70%;
