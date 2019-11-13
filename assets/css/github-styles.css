@@ -60,8 +60,8 @@ img {
  padding-left: 0;
 }
 
-.contact-heading {
-    padding-top: 12px;
+.second-heading {
+    padding-bottom: 25px;
 }
 #search-area {
   display: block;
@@ -174,7 +174,7 @@ img {
   font-size: 1.4em;
   color: #666;
   max-width: 550px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 #gh-submit {

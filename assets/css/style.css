@@ -49,11 +49,11 @@
     background-color: #71869C;
 }
 .ui-menu-color-github {
-    background-color: #1c4a6c;
+    background-color: #2476b4;
 }
 
 .ui-menu-color-interests {
-    background-color: #e74c3c;
+    background-color: #d180c4;
 }
 
 body {
@@ -361,6 +361,7 @@ footer {
 
 .contact-heading {
     font-family: "Exo", sans-serif;
+    padding-top: 25px;
     font-weight: 300;
     margin-bottom: 20px;
 }
@@ -404,7 +405,6 @@ div#map {
     .contact-heading {
         font-family: "Exo", sans-serif;
         font-weight: 300;
-        margin-top: 60px;
         margin-bottom: 20px;
     }
 }
